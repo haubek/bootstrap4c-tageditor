@@ -91,14 +91,14 @@
       width: 1rem;
       height: 1rem;
       cursor: pointer;
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='#{$tag-editor-svg-close-color}' d='#{$tag-editor-svg-close}'/%3E%3C/svg%3E");
+      background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$tag-editor-svg-close-color}' d='#{$tag-editor-svg-close}'/></svg>");
       background-size: 1rem 1rem;
       background-position: center center;
       background-repeat: no-repeat;
     }
     &:hover {
       i {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='#{$tag-editor-svg-close-color-hover}' d='#{$tag-editor-svg-close}'/%3E%3C/svg%3E");
+        background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$tag-editor-svg-close-color-hover}' d='#{$tag-editor-svg-close}'/></svg>");
       }
     }
   }
