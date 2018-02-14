@@ -6,16 +6,16 @@ The *Bootstrap4C Tageditor* is a simple Bootstrap 4 stylesheet component for the
 
 See demo here => https://haubek.github.io
 
-### Bower install
+### NPM install
 
 ```
-bower install bootstrap4c-tageditor
+npm install bootstrap4c-tageditor
 ```
 
 ### CSS
 
 ```
-<link href="path/to/component-tageditor.css" rel="stylesheet">
+<link href="path/to/component-tageditor.min.css" rel="stylesheet">
 ```
 
 ### HTML5 markup

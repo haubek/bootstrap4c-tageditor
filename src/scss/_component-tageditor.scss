@@ -63,11 +63,11 @@
     padding: 0 1.5rem 0 .5rem;
     border: 1px solid $input-border-color;
     border-radius: $border-radius;
-    background-color: $gray-lightest;
+    background-color: $gray-200;
     white-space: nowrap;
     overflow: hidden;
     cursor: pointer;
-    color: $gray-dark;
+    color: $gray-700;
     &.active {
       padding: 0 0 0 .22rem;
       border-color: transparent !important;

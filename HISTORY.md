@@ -1,5 +1,9 @@
 # Release History
 
+## 1.0.2
+
+* Upgraded to Bootstrap 4.0.0
+
 ## 1.0.1
 
 * SASS SVG URI
