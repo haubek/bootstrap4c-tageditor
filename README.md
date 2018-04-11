@@ -6,10 +6,10 @@ The *Bootstrap4C Tageditor* is a simple Bootstrap 4 stylesheet component for the
 
 See demo here => https://haubek.github.io
 
-### NPM install
+### Yarn install
 
 ```
-npm install bootstrap4c-tageditor
+yarn add bootstrap4c-tageditor
 ```
 
 ### CSS

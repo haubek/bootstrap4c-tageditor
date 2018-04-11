@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Example</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="dist/css/component-tageditor.css" rel="stylesheet">
+</head>
+<body class="h-100">
+  <div class="container h-100">
+    <div class="d-flex align-items-start flex-column h-100">
+      <div class="w-100 m-auto py-5">
+
+<input type="text" class="form-control form-control-tag" id="" name="">
+<br>
+<button type="button" class="btn btn-outline-danger btn-xs btn-remove-tags">Clear tags</button>
+
+      </div>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://haubek.github.io/dist/js/jquery.tag-editor.js"></script>
+    <script src="https://haubek.github.io/dist/js/jquery.caret.js"></script>
+  <script type="text/javascript">
+$('.form-control-tag').tagEditor({
+    initialTags: ['Hello', 'World'],
+    delimiter: ', ',
+    forceLowercase: false,
+    animateDelete: 0,
+    placeholder: 'Enter tag...'
+});
+// Removing all tags
+$(document).on('click', '.btn-remove-tags', function() {
+  $('.form-control-tag').next('.tag-editor').find('.tag-editor-delete').click();
+});
+  </script>
+</body>
+</html>
